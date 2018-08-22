@@ -1,0 +1,54 @@
+08:29:44,356 INFO  [pro.realis.lab.librarian.PublisherController] (default task-17) fetching publisher list
+08:29:44,363 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-17) fetching predefined list of publishers
+08:29:44,364 INFO  [pro.realis.lab.librarian.PublisherController] (default task-17) fetching publisher list
+08:29:44,364 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-17) fetching predefined list of publishers
+08:29:44,367 INFO  [pro.realis.lab.librarian.PublisherController] (default task-17) fetching publisher list
+08:29:44,367 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-17) fetching predefined list of publishers
+08:29:47,820 INFO  [pro.realis.lab.librarian.PublisherController] (default task-19) fetching books of publisher 1
+08:29:47,838 INFO  [pro.realis.lab.librarian.PublisherController] (default task-19) fetching books of publisher 1
+08:29:47,839 INFO  [pro.realis.lab.librarian.PublisherController] (default task-19) fetching books of publisher 1
+08:33:39,392 INFO  [pro.realis.lab.librarian.PublisherController] (default task-23) fetching publisher list
+08:33:39,392 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-23) fetching predefined list of publishers
+08:33:39,392 INFO  [pro.realis.lab.librarian.PublisherController] (default task-23) fetching publisher list
+08:33:39,393 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-23) fetching predefined list of publishers
+08:33:39,396 INFO  [pro.realis.lab.librarian.PublisherController] (default task-23) fetching publisher list
+08:33:39,396 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-23) fetching predefined list of publishers
+08:33:41,309 INFO  [pro.realis.lab.librarian.PublisherController] (default task-25) fetching books of publisher 2
+08:33:41,310 INFO  [pro.realis.lab.librarian.PublisherController] (default task-25) fetching books of publisher 2
+08:33:41,311 INFO  [pro.realis.lab.librarian.PublisherController] (default task-25) fetching books of publisher 2
+08:34:53,530 INFO  [pro.realis.lab.librarian.PublisherController] (default task-28) fetching publisher list
+08:34:53,530 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-28) fetching predefined list of publishers
+08:34:53,530 INFO  [pro.realis.lab.librarian.PublisherController] (default task-28) fetching publisher list
+08:34:53,530 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-28) fetching predefined list of publishers
+08:34:53,533 INFO  [pro.realis.lab.librarian.PublisherController] (default task-28) fetching publisher list
+08:34:53,533 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-28) fetching predefined list of publishers
+08:34:57,682 INFO  [pro.realis.lab.librarian.PublisherController] (default task-30) fetching publisher list
+08:34:57,682 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-30) fetching predefined list of publishers
+08:34:57,683 INFO  [pro.realis.lab.librarian.PublisherController] (default task-30) fetching publisher list
+08:34:57,683 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-30) fetching predefined list of publishers
+08:34:57,684 INFO  [pro.realis.lab.librarian.PublisherController] (default task-30) fetching publisher list
+08:34:57,684 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-30) fetching predefined list of publishers
+08:34:57,811 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+08:34:57,811 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-1) fetching predefined list of publishers
+08:34:57,812 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+08:34:57,812 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-1) fetching predefined list of publishers
+08:34:57,814 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+08:34:57,815 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-1) fetching predefined list of publishers
+08:34:59,984 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching books of publisher 1
+08:34:59,984 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching books of publisher 1
+08:34:59,985 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching books of publisher 1
+08:35:16,400 INFO  [pro.realis.lab.librarian.PublisherController] (default task-8) fetching publisher list
+08:35:16,400 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-8) fetching predefined list of publishers
+08:35:16,401 INFO  [pro.realis.lab.librarian.PublisherController] (default task-8) fetching publisher list
+08:35:16,401 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-8) fetching predefined list of publishers
+08:35:16,403 INFO  [pro.realis.lab.librarian.PublisherController] (default task-8) fetching publisher list
+08:35:16,403 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-8) fetching predefined list of publishers
+08:35:21,866 INFO  [pro.realis.lab.librarian.PublisherController] (default task-10) fetching books of publisher 1
+08:35:21,869 INFO  [pro.realis.lab.librarian.PublisherController] (default task-10) fetching books of publisher 1
+08:35:21,871 INFO  [pro.realis.lab.librarian.PublisherController] (default task-10) fetching books of publisher 1
+09:07:06,648 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
+09:07:06,648 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-5) fetching predefined list of publishers
+09:07:06,650 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
+09:07:06,650 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-5) fetching predefined list of publishers
+09:07:06,672 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
+09:07:06,672 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-5) fetching predefined list of publishers

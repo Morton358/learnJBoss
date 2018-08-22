@@ -1,0 +1,6 @@
+<beans>
+    <alternatives>
+        <class>pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO</class>
+    </alternatives>
+
+</beans>

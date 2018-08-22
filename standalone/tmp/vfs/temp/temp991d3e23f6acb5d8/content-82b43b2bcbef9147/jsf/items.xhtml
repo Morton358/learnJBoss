@@ -1,0 +1,47 @@
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:h="http://java.sun.com/jsf/html"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:a4j="http://richfaces.org/a4j"
+        xmlns:rich="http://richfaces.org/rich">
+
+    <h:head/>
+    <h:body>
+        <ui:composition template="./template.xhtml">
+            <ui:define name="title">Books by publisher <strong><img src="#{publisherController.currentPublisher.logoImage}"/></strong></ui:define>
+            <ui:define name="section">
+
+                <h:dataTable value="#{publisherController.books}" var="i">
+
+                    <h:column>
+                        <f:facet name="header">Cover</f:facet>
+                        <img src="#{i.cover}"/>
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Title</f:facet>
+                        #{i.title}
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Author</f:facet>
+                        #{i.author}
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Price</f:facet>
+                        #{i.price}
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Add to order</f:facet>
+                        <p onclick="javascript:addMeal(#{i.id})" class="action">+</p>
+                    </h:column>
+
+
+                </h:dataTable>
+
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</f:view>
