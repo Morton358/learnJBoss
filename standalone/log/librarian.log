@@ -52,3 +52,454 @@
 09:07:06,650 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-5) fetching predefined list of publishers
 09:07:06,672 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
 09:07:06,672 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-5) fetching predefined list of publishers
+09:56:02,493 INFO  [pro.realis.lab.librarian.PublisherController] (default task-12) fetching publisher list
+09:56:02,493 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-12) fetching predefined list of publishers
+09:56:02,496 INFO  [pro.realis.lab.librarian.PublisherController] (default task-12) fetching publisher list
+09:56:02,497 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-12) fetching predefined list of publishers
+09:56:02,519 INFO  [pro.realis.lab.librarian.PublisherController] (default task-12) fetching publisher list
+09:56:02,519 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-12) fetching predefined list of publishers
+09:56:04,592 INFO  [pro.realis.lab.librarian.PublisherController] (default task-15) fetching books of publisher 1
+09:56:04,594 INFO  [pro.realis.lab.librarian.PublisherController] (default task-15) fetching books of publisher 1
+09:56:04,602 INFO  [pro.realis.lab.librarian.PublisherController] (default task-15) fetching books of publisher 1
+09:56:06,503 INFO  [pro.realis.lab.librarian.PublisherController] (default task-17) fetching publisher list
+09:56:06,503 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-17) fetching predefined list of publishers
+09:56:06,504 INFO  [pro.realis.lab.librarian.PublisherController] (default task-17) fetching publisher list
+09:56:06,504 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-17) fetching predefined list of publishers
+09:56:06,520 INFO  [pro.realis.lab.librarian.PublisherController] (default task-17) fetching publisher list
+09:56:06,520 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-17) fetching predefined list of publishers
+09:56:11,068 INFO  [pro.realis.lab.librarian.PublisherController] (default task-19) fetching books of publisher 3
+09:56:11,069 INFO  [pro.realis.lab.librarian.PublisherController] (default task-19) fetching books of publisher 3
+09:56:11,073 INFO  [pro.realis.lab.librarian.PublisherController] (default task-19) fetching books of publisher 3
+09:56:19,023 INFO  [pro.realis.lab.librarian.PublisherController] (default task-22) fetching publisher list
+09:56:19,023 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-22) fetching predefined list of publishers
+09:56:19,024 INFO  [pro.realis.lab.librarian.PublisherController] (default task-22) fetching publisher list
+09:56:19,024 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-22) fetching predefined list of publishers
+09:56:19,026 INFO  [pro.realis.lab.librarian.PublisherController] (default task-22) fetching publisher list
+09:56:19,026 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-22) fetching predefined list of publishers
+03:20:58,980 INFO  [pro.realis.lab.librarian.PublisherController] (default task-9) fetching publisher list
+03:20:59,036 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-9) fetching restaurant list from data access object. session: anonymous {}
+03:20:59,036 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-9) fetching predefined list of publishers
+03:20:59,038 INFO  [pro.realis.lab.librarian.PublisherController] (default task-9) fetching publisher list
+03:20:59,039 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-9) fetching restaurant list from data access object. session: anonymous {}
+03:20:59,039 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-9) fetching predefined list of publishers
+03:20:59,058 INFO  [pro.realis.lab.librarian.PublisherController] (default task-9) fetching publisher list
+03:20:59,058 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-9) fetching restaurant list from data access object. session: anonymous {}
+03:20:59,058 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-9) fetching predefined list of publishers
+03:20:59,857 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-11) obtaining ordered meal list
+03:21:24,750 INFO  [pro.realis.lab.librarian.PublisherController] (default task-12) fetching books of publisher 1
+03:21:24,752 INFO  [pro.realis.lab.librarian.PublisherController] (default task-12) fetching books of publisher 1
+03:21:24,764 INFO  [pro.realis.lab.librarian.PublisherController] (default task-12) fetching books of publisher 1
+03:21:24,923 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-13) obtaining ordered meal list
+03:48:07,280 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-16) adding pubisher [Publisher{id=99, name='Atos Press', logoImage='data:image/png;base64,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'}]
+03:48:16,427 INFO  [pro.realis.lab.librarian.PublisherController] (default task-17) fetching publisher list
+03:48:16,427 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-17) fetching restaurant list from data access object. session: anonymous {}
+03:48:16,427 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-17) fetching predefined list of publishers
+03:48:16,434 INFO  [pro.realis.lab.librarian.PublisherController] (default task-17) fetching publisher list
+03:48:16,434 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-17) fetching restaurant list from data access object. session: anonymous {}
+03:48:16,434 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-17) fetching predefined list of publishers
+03:48:16,443 INFO  [pro.realis.lab.librarian.PublisherController] (default task-17) fetching publisher list
+03:48:16,444 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-17) fetching restaurant list from data access object. session: anonymous {}
+03:48:16,444 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-17) fetching predefined list of publishers
+03:48:16,569 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-18) obtaining ordered meal list
+04:25:45,168 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+04:25:45,187 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-1) fetching restaurant list from data access object. session: anonymous {}
+04:25:45,187 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-1) fetching predefined list of publishers
+04:25:45,190 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+04:25:45,191 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-1) fetching restaurant list from data access object. session: anonymous {}
+04:25:45,191 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-1) fetching predefined list of publishers
+04:25:45,208 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+04:25:45,209 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-1) fetching restaurant list from data access object. session: anonymous {}
+04:25:45,209 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-1) fetching predefined list of publishers
+04:25:45,980 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) obtaining ordered meal list
+04:27:03,159 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-5) fetching restaurant list from data access object. session: anonymous org.apache.cxf.jaxws.context.WrappedMessageContext@63ec7854
+04:27:03,161 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-5) fetching predefined list of publishers
+04:27:40,501 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-6) adding pubisher [Publisher{id=99, name='Atos Press', logoImage='data:image/png;base64,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'}]
+04:27:49,504 INFO  [pro.realis.lab.librarian.PublisherController] (default task-7) fetching publisher list
+04:27:49,504 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-7) fetching restaurant list from data access object. session: anonymous {}
+04:27:49,504 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-7) fetching predefined list of publishers
+04:27:49,507 INFO  [pro.realis.lab.librarian.PublisherController] (default task-7) fetching publisher list
+04:27:49,507 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-7) fetching restaurant list from data access object. session: anonymous {}
+04:27:49,507 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-7) fetching predefined list of publishers
+04:27:49,513 INFO  [pro.realis.lab.librarian.PublisherController] (default task-7) fetching publisher list
+04:27:49,513 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-7) fetching restaurant list from data access object. session: anonymous {}
+04:27:49,513 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-7) fetching predefined list of publishers
+04:28:59,055 INFO  [pro.realis.lab.librarian.PublisherController] (default task-10) fetching publisher list
+04:28:59,055 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-10) fetching restaurant list from data access object. session: anonymous {}
+04:28:59,055 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-10) fetching predefined list of publishers
+04:28:59,056 INFO  [pro.realis.lab.librarian.PublisherController] (default task-10) fetching publisher list
+04:28:59,056 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-10) fetching restaurant list from data access object. session: anonymous {}
+04:28:59,056 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-10) fetching predefined list of publishers
+04:28:59,071 INFO  [pro.realis.lab.librarian.PublisherController] (default task-10) fetching publisher list
+04:28:59,071 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-10) fetching restaurant list from data access object. session: anonymous {}
+04:28:59,071 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-10) fetching predefined list of publishers
+04:28:59,306 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-11) obtaining ordered meal list
+04:29:36,128 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-12) fetching restaurant list from data access object. session: anonymous org.apache.cxf.jaxws.context.WrappedMessageContext@298755ef
+04:29:36,128 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-12) fetching predefined list of publishers
+04:33:09,280 INFO  [pro.realis.lab.librarian.PublisherController] (default task-13) fetching publisher list
+04:33:09,281 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-13) fetching restaurant list from data access object. session: anonymous {}
+04:33:09,281 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-13) fetching predefined list of publishers
+04:33:09,282 INFO  [pro.realis.lab.librarian.PublisherController] (default task-13) fetching publisher list
+04:33:09,282 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-13) fetching restaurant list from data access object. session: anonymous {}
+04:33:09,282 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-13) fetching predefined list of publishers
+04:33:09,286 INFO  [pro.realis.lab.librarian.PublisherController] (default task-13) fetching publisher list
+04:33:09,287 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-13) fetching restaurant list from data access object. session: anonymous {}
+04:33:09,290 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-13) fetching predefined list of publishers
+04:33:09,409 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-14) obtaining ordered meal list
+04:47:34,204 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-22) adding pubisher [Publisher{id=100, name='Hiper Super Press', logoImage='https://wiki.hexonet.net/images/c/ce/Press.png'}]
+04:47:47,585 INFO  [pro.realis.lab.librarian.PublisherController] (default task-26) fetching publisher list
+04:47:47,585 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-26) fetching restaurant list from data access object. session: anonymous {}
+04:47:47,585 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-26) fetching predefined list of publishers
+04:47:47,586 INFO  [pro.realis.lab.librarian.PublisherController] (default task-26) fetching publisher list
+04:47:47,587 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-26) fetching restaurant list from data access object. session: anonymous {}
+04:47:47,587 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-26) fetching predefined list of publishers
+04:47:47,591 INFO  [pro.realis.lab.librarian.PublisherController] (default task-26) fetching publisher list
+04:47:47,592 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-26) fetching restaurant list from data access object. session: anonymous {}
+04:47:47,592 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-26) fetching predefined list of publishers
+04:47:47,903 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-29) obtaining ordered meal list
+05:10:04,973 INFO  [pro.realis.lab.librarian.PublisherController] (default task-31) fetching publisher list
+05:10:04,976 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-31) fetching restaurant list from data access object. session: anonymous {}
+05:10:04,976 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-31) fetching predefined list of publishers
+05:10:04,978 INFO  [pro.realis.lab.librarian.PublisherController] (default task-31) fetching publisher list
+05:10:04,978 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-31) fetching restaurant list from data access object. session: anonymous {}
+05:10:04,978 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-31) fetching predefined list of publishers
+05:10:04,982 INFO  [pro.realis.lab.librarian.PublisherController] (default task-31) fetching publisher list
+05:10:04,982 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-31) fetching restaurant list from data access object. session: anonymous {}
+05:10:04,982 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-31) fetching predefined list of publishers
+05:10:05,140 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-32) obtaining ordered meal list
+05:10:05,170 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-32) returning list of 0 ordered meals
+05:10:20,184 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching books of publisher 2
+05:10:20,184 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching books of publisher 2
+05:10:20,191 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching books of publisher 2
+05:10:20,306 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) obtaining ordered meal list
+05:10:20,307 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) returning list of 0 ordered meals
+05:10:22,679 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-3) adding meal 4 to order
+05:10:22,694 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-4) obtaining ordered meal list
+05:10:22,694 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-4) returning list of 1 ordered meals
+05:10:30,361 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-5) finalizing order
+05:10:30,491 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) obtaining ordered meal list
+05:10:30,491 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) returning list of 1 ordered meals
+05:10:35,463 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-7) removing meal 4 to order
+05:10:35,480 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-8) obtaining ordered meal list
+05:10:35,480 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-8) returning list of 0 ordered meals
+05:10:39,074 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-9) adding meal 5 to order
+05:10:39,083 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-10) obtaining ordered meal list
+05:10:39,083 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-10) returning list of 1 ordered meals
+05:10:40,935 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-11) adding meal 4 to order
+05:10:40,947 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-12) obtaining ordered meal list
+05:10:40,947 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-12) returning list of 2 ordered meals
+05:18:47,880 INFO  [pro.realis.lab.librarian.PublisherController] (default task-13) fetching publisher list
+05:18:47,880 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-13) fetching restaurant list from data access object. session: anonymous {}
+05:18:47,882 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-13) fetching predefined list of publishers
+05:18:47,885 INFO  [pro.realis.lab.librarian.PublisherController] (default task-13) fetching publisher list
+05:18:47,885 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-13) fetching restaurant list from data access object. session: anonymous {}
+05:18:47,885 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-13) fetching predefined list of publishers
+05:18:47,888 INFO  [pro.realis.lab.librarian.PublisherController] (default task-13) fetching publisher list
+05:18:47,888 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-13) fetching restaurant list from data access object. session: anonymous {}
+05:18:47,888 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-13) fetching predefined list of publishers
+05:18:48,024 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-14) obtaining ordered meal list
+05:18:48,024 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-14) returning list of 2 ordered meals
+05:18:50,158 INFO  [pro.realis.lab.librarian.PublisherController] (default task-15) fetching books of publisher 1
+05:18:50,160 INFO  [pro.realis.lab.librarian.PublisherController] (default task-15) fetching books of publisher 1
+05:18:50,162 INFO  [pro.realis.lab.librarian.PublisherController] (default task-15) fetching books of publisher 1
+05:18:50,290 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-16) obtaining ordered meal list
+05:18:50,290 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-16) returning list of 2 ordered meals
+05:18:51,557 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-17) adding meal 2 to order
+05:18:51,565 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-18) obtaining ordered meal list
+05:18:51,565 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-18) returning list of 3 ordered meals
+05:18:56,375 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-19) finalizing order
+05:18:56,393 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-20) obtaining ordered meal list
+05:18:56,393 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-20) returning list of 3 ordered meals
+05:26:06,717 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-21) reseting order
+05:26:06,745 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-22) obtaining ordered meal list
+05:26:06,745 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-22) returning list of 0 ordered meals
+05:30:17,279 INFO  [pro.realis.lab.librarian.ejb.mdb.Delivery] (Thread-1 (ActiveMQ-client-global-threads-29130741)) order received: Order{books=[Book{id=4, title='Programming for the Internet of Things: Using Windows 10 IoT Core and Azure IoT Suite', price=49, publisher=Publisher{id=2, name='Microsoft Press', logoImage='https://upload.wikimedia.org/wikipedia/commons/4/4a/Microsoft_Press_Logo.svg'}}, Book{id=2, title='Getting started with SQL', price=34, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=5, title='Adaptive Code, Second Edition', price=19, publisher=Publisher{id=2, name='Microsoft Press', logoImage='https://upload.wikimedia.org/wikipedia/commons/4/4a/Microsoft_Press_Logo.svg'}}]}
+05:30:17,285 INFO  [pro.realis.lab.librarian.ejb.mdb.Delivery] (Thread-0 (ActiveMQ-client-global-threads-29130741)) order received: Order{books=[Book{id=4, title='Programming for the Internet of Things: Using Windows 10 IoT Core and Azure IoT Suite', price=49, publisher=Publisher{id=2, name='Microsoft Press', logoImage='https://upload.wikimedia.org/wikipedia/commons/4/4a/Microsoft_Press_Logo.svg'}}]}
+05:31:09,088 INFO  [pro.realis.lab.librarian.PublisherController] (default task-23) fetching publisher list
+05:31:09,118 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-23) fetching restaurant list from data access object. session: anonymous {}
+05:31:09,118 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-23) fetching predefined list of publishers
+05:31:09,126 INFO  [pro.realis.lab.librarian.PublisherController] (default task-23) fetching publisher list
+05:31:09,126 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-23) fetching restaurant list from data access object. session: anonymous {}
+05:31:09,126 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-23) fetching predefined list of publishers
+05:31:09,144 INFO  [pro.realis.lab.librarian.PublisherController] (default task-23) fetching publisher list
+05:31:09,144 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-23) fetching restaurant list from data access object. session: anonymous {}
+05:31:09,144 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-23) fetching predefined list of publishers
+05:31:09,297 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-25) obtaining ordered meal list
+05:31:09,307 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-25) returning list of 0 ordered meals
+05:31:11,059 INFO  [pro.realis.lab.librarian.PublisherController] (default task-24) fetching books of publisher 1
+05:31:11,063 INFO  [pro.realis.lab.librarian.PublisherController] (default task-24) fetching books of publisher 1
+05:31:11,067 INFO  [pro.realis.lab.librarian.PublisherController] (default task-24) fetching books of publisher 1
+05:31:11,187 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-26) obtaining ordered meal list
+05:31:11,187 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-26) returning list of 0 ordered meals
+05:31:26,911 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-27) adding meal 3 to order
+05:31:26,925 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-28) obtaining ordered meal list
+05:31:26,926 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-28) returning list of 1 ordered meals
+05:31:27,925 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-29) adding meal 2 to order
+05:31:27,936 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-30) obtaining ordered meal list
+05:31:27,936 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-30) returning list of 2 ordered meals
+05:31:28,908 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-31) adding meal 1 to order
+05:31:28,917 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-32) obtaining ordered meal list
+05:31:28,917 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-32) returning list of 3 ordered meals
+05:31:33,090 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-1) finalizing order
+05:31:33,097 INFO  [pro.realis.lab.librarian.ejb.mdb.Delivery] (Thread-11 (ActiveMQ-client-global-threads-29130741)) order received: Order{books=[Book{id=1, title='Learning Android', price=49, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=2, title='Getting started with SQL', price=34, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=3, title='Learning Android', price=49, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}]}
+05:31:33,123 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) obtaining ordered meal list
+05:31:33,123 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) returning list of 3 ordered meals
+05:32:04,535 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-3) reseting order
+05:32:04,547 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-4) obtaining ordered meal list
+05:32:04,547 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-4) returning list of 0 ordered meals
+05:32:09,769 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
+05:32:09,769 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-5) fetching restaurant list from data access object. session: anonymous {}
+05:32:09,770 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-5) fetching predefined list of publishers
+05:32:09,772 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
+05:32:09,772 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-5) fetching restaurant list from data access object. session: anonymous {}
+05:32:09,772 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-5) fetching predefined list of publishers
+05:32:09,775 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
+05:32:09,775 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-5) fetching restaurant list from data access object. session: anonymous {}
+05:32:09,775 INFO  [pro.realis.lab.librarian.dao.impl.InMemoryBooksDAO] (default task-5) fetching predefined list of publishers
+05:32:09,922 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) obtaining ordered meal list
+05:32:09,922 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) returning list of 0 ordered meals
+05:32:11,247 INFO  [pro.realis.lab.librarian.PublisherController] (default task-7) fetching books of publisher 1
+05:32:11,251 INFO  [pro.realis.lab.librarian.PublisherController] (default task-7) fetching books of publisher 1
+05:32:11,253 INFO  [pro.realis.lab.librarian.PublisherController] (default task-7) fetching books of publisher 1
+05:32:11,398 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-8) obtaining ordered meal list
+05:32:11,398 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-8) returning list of 0 ordered meals
+05:32:13,285 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-9) adding meal 3 to order
+05:32:13,295 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-10) obtaining ordered meal list
+05:32:13,295 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-10) returning list of 1 ordered meals
+05:32:14,060 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-11) adding meal 2 to order
+05:32:14,070 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-12) obtaining ordered meal list
+05:32:14,070 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-12) returning list of 2 ordered meals
+05:32:14,732 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-13) adding meal 1 to order
+05:32:14,743 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-14) obtaining ordered meal list
+05:32:14,743 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-14) returning list of 3 ordered meals
+05:32:18,062 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-15) finalizing order
+05:32:18,070 INFO  [pro.realis.lab.librarian.ejb.mdb.Delivery] (Thread-12 (ActiveMQ-client-global-threads-29130741)) order received: Order{books=[Book{id=1, title='Learning Android', price=49, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=3, title='Learning Android', price=49, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=2, title='Getting started with SQL', price=34, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}]}
+05:32:18,081 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-16) obtaining ordered meal list
+05:32:18,081 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-16) returning list of 3 ordered meals
+05:34:57,068 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-17) reseting order
+05:34:57,094 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-18) obtaining ordered meal list
+05:34:57,094 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-18) returning list of 0 ordered meals
+05:34:58,510 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-19) adding meal 1 to order
+05:34:58,534 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-20) obtaining ordered meal list
+05:34:58,534 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-20) returning list of 1 ordered meals
+05:34:59,389 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-21) adding meal 2 to order
+05:34:59,402 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-22) obtaining ordered meal list
+05:34:59,402 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-22) returning list of 2 ordered meals
+05:35:02,248 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-23) finalizing order
+05:35:02,255 INFO  [pro.realis.lab.librarian.ejb.mdb.Delivery] (Thread-9 (ActiveMQ-client-global-threads-29130741)) order received: Order{books=[Book{id=1, title='Learning Android', price=49, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=2, title='Getting started with SQL', price=34, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}]}
+05:35:02,270 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-25) obtaining ordered meal list
+05:35:02,270 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-25) returning list of 2 ordered meals
+05:35:32,015 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-24) adding meal 3 to order
+05:35:32,024 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-26) obtaining ordered meal list
+05:35:32,025 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-26) returning list of 3 ordered meals
+05:35:32,838 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-27) adding meal 2 to order
+05:35:32,847 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-28) obtaining ordered meal list
+05:35:32,847 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-28) returning list of 4 ordered meals
+05:35:34,978 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-29) finalizing order
+05:35:34,986 INFO  [pro.realis.lab.librarian.ejb.mdb.Delivery] (Thread-10 (ActiveMQ-client-global-threads-29130741)) order received: Order{books=[Book{id=1, title='Learning Android', price=49, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=2, title='Getting started with SQL', price=34, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=3, title='Learning Android', price=49, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=2, title='Getting started with SQL', price=34, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}]}
+05:35:35,003 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-30) obtaining ordered meal list
+05:35:35,003 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-30) returning list of 4 ordered meals
+06:01:24,346 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-1) reseting order
+06:01:24,404 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) obtaining ordered meal list
+06:01:24,405 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) returning list of 0 ordered meals
+06:04:08,934 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-3) adding meal 2 to order
+06:04:08,958 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-4) obtaining ordered meal list
+06:04:08,959 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-4) returning list of 1 ordered meals
+06:04:09,956 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-5) adding meal 3 to order
+06:04:09,965 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) obtaining ordered meal list
+06:04:09,965 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) returning list of 2 ordered meals
+06:04:12,335 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-7) finalizing order
+06:04:12,471 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-8) obtaining ordered meal list
+06:04:12,471 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-8) returning list of 2 ordered meals
+06:04:12,489 INFO  [pro.realis.lab.librarian.ejb.mdb.Delivery] (Thread-0 (ActiveMQ-client-global-threads-1827643693)) order received: Order{books=[Book{id=2, title='Getting started with SQL', price=34, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}, Book{id=3, title='Learning Android', price=49, publisher=Publisher{id=1, name='O'Reilly', logoImage='http://2016.worldiaday.org/sites/default/files/oreilly.png'}}]}
+06:36:33,488 INFO  [pro.realis.lab.librarian.PublisherController] (default task-11) fetching publisher list
+06:36:33,562 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-11) fetching restaurant list from data access object. session: anonymous {}
+06:36:33,738 INFO  [pro.realis.lab.librarian.PublisherController] (default task-11) fetching publisher list
+06:36:33,739 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-11) fetching restaurant list from data access object. session: anonymous {}
+06:36:33,843 INFO  [pro.realis.lab.librarian.PublisherController] (default task-11) fetching publisher list
+06:36:33,844 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-11) fetching restaurant list from data access object. session: anonymous {}
+06:36:34,155 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-12) obtaining ordered meal list
+06:36:34,170 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-12) returning list of 0 ordered meals
+06:43:49,615 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-20) adding pubisher [Publisher{id=100, name='Hiper Super Press', logoImage='https://wiki.hexonet.net/images/c/ce/Press.png'}]
+06:44:04,403 INFO  [pro.realis.lab.librarian.PublisherController] (default task-24) fetching publisher list
+06:44:04,404 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-24) fetching restaurant list from data access object. session: anonymous {}
+06:44:04,415 INFO  [pro.realis.lab.librarian.PublisherController] (default task-24) fetching publisher list
+06:44:04,415 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-24) fetching restaurant list from data access object. session: anonymous {}
+06:44:04,433 INFO  [pro.realis.lab.librarian.PublisherController] (default task-24) fetching publisher list
+06:44:04,434 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-24) fetching restaurant list from data access object. session: anonymous {}
+06:44:04,558 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-25) obtaining ordered meal list
+06:44:04,559 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-25) returning list of 0 ordered meals
+14:45:42,913 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+14:45:43,006 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-1) fetching restaurant list from data access object. session: anonymous {}
+14:45:43,103 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+14:45:43,104 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-1) fetching restaurant list from data access object. session: anonymous {}
+14:45:43,133 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+14:45:43,133 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-1) fetching restaurant list from data access object. session: anonymous {}
+14:45:43,755 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) obtaining ordered meal list
+14:45:43,762 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) returning list of 0 ordered meals
+14:49:33,323 INFO  [pro.realis.lab.librarian.PublisherController] (default task-3) fetching publisher list
+14:49:33,324 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-3) fetching restaurant list from data access object. session: anonymous {}
+14:49:33,329 INFO  [pro.realis.lab.librarian.PublisherController] (default task-3) fetching publisher list
+14:49:33,329 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-3) fetching restaurant list from data access object. session: anonymous {}
+14:49:33,348 INFO  [pro.realis.lab.librarian.PublisherController] (default task-3) fetching publisher list
+14:49:33,348 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-3) fetching restaurant list from data access object. session: anonymous {}
+14:49:33,590 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) obtaining ordered meal list
+14:49:33,591 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) returning list of 0 ordered meals
+14:52:55,746 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-14) adding pubisher [Publisher{id=100, name='Hiper Super Press', logoImage='https://wiki.hexonet.net/images/c/ce/Press.png'}]
+14:53:08,708 INFO  [pro.realis.lab.librarian.PublisherController] (default task-18) fetching publisher list
+14:53:08,709 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-18) fetching restaurant list from data access object. session: anonymous {}
+14:53:08,711 INFO  [pro.realis.lab.librarian.PublisherController] (default task-18) fetching publisher list
+14:53:08,711 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-18) fetching restaurant list from data access object. session: anonymous {}
+14:53:08,715 INFO  [pro.realis.lab.librarian.PublisherController] (default task-18) fetching publisher list
+14:53:08,716 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-18) fetching restaurant list from data access object. session: anonymous {}
+14:53:09,016 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-21) obtaining ordered meal list
+14:53:09,016 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-21) returning list of 0 ordered meals
+14:57:43,795 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-26) fetching restaurant list from data access object. session: anonymous org.apache.cxf.jaxws.context.WrappedMessageContext@8174170
+14:59:06,293 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-27) adding pubisher [Publisher{id=5, name='fromWSDL', logoImage='http://fskla'}]
+14:59:22,087 INFO  [pro.realis.lab.librarian.PublisherController] (default task-28) fetching publisher list
+14:59:22,088 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-28) fetching restaurant list from data access object. session: anonymous {}
+14:59:22,091 INFO  [pro.realis.lab.librarian.PublisherController] (default task-28) fetching publisher list
+14:59:22,091 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-28) fetching restaurant list from data access object. session: anonymous {}
+14:59:22,095 INFO  [pro.realis.lab.librarian.PublisherController] (default task-28) fetching publisher list
+14:59:22,096 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-28) fetching restaurant list from data access object. session: anonymous {}
+14:59:22,376 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-31) obtaining ordered meal list
+14:59:22,377 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-31) returning list of 0 ordered meals
+15:18:03,513 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+15:18:03,514 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-1) fetching restaurant list from data access object. session: anonymous {}
+15:18:03,518 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+15:18:03,518 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-1) fetching restaurant list from data access object. session: anonymous {}
+15:18:03,526 INFO  [pro.realis.lab.librarian.PublisherController] (default task-1) fetching publisher list
+15:18:03,527 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-1) fetching restaurant list from data access object. session: anonymous {}
+15:18:03,646 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) obtaining ordered meal list
+15:18:03,647 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) returning list of 0 ordered meals
+15:18:13,572 INFO  [pro.realis.lab.librarian.PublisherController] (default task-3) fetching books of publisher 100
+15:18:13,582 INFO  [pro.realis.lab.librarian.PublisherController] (default task-3) fetching books of publisher 100
+15:18:13,594 INFO  [pro.realis.lab.librarian.PublisherController] (default task-3) fetching books of publisher 100
+15:18:13,772 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-4) obtaining ordered meal list
+15:18:13,772 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-4) returning list of 0 ordered meals
+15:18:16,008 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
+15:18:16,009 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-5) fetching restaurant list from data access object. session: anonymous {}
+15:18:16,012 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
+15:18:16,012 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-5) fetching restaurant list from data access object. session: anonymous {}
+15:18:16,017 INFO  [pro.realis.lab.librarian.PublisherController] (default task-5) fetching publisher list
+15:18:16,018 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-5) fetching restaurant list from data access object. session: anonymous {}
+15:18:16,136 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) obtaining ordered meal list
+15:18:16,137 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-6) returning list of 0 ordered meals
+15:18:17,450 INFO  [pro.realis.lab.librarian.PublisherController] (default task-7) fetching books of publisher 2
+15:18:17,455 INFO  [pro.realis.lab.librarian.PublisherController] (default task-7) fetching books of publisher 2
+15:18:17,459 INFO  [pro.realis.lab.librarian.PublisherController] (default task-7) fetching books of publisher 2
+15:18:17,576 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-9) obtaining ordered meal list
+15:18:17,576 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-9) returning list of 0 ordered meals
+15:18:19,048 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-11) adding meal 4 to order
+15:18:19,058 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-12) obtaining ordered meal list
+15:18:19,058 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-12) returning list of 1 ordered meals
+15:18:21,891 INFO  [pro.realis.lab.librarian.PublisherController] (default task-13) fetching publisher list
+15:18:21,892 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-13) fetching restaurant list from data access object. session: anonymous {}
+15:18:21,900 INFO  [pro.realis.lab.librarian.PublisherController] (default task-13) fetching publisher list
+15:18:21,901 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-13) fetching restaurant list from data access object. session: anonymous {}
+15:18:21,909 INFO  [pro.realis.lab.librarian.PublisherController] (default task-13) fetching publisher list
+15:18:21,910 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-13) fetching restaurant list from data access object. session: anonymous {}
+15:18:22,026 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-14) obtaining ordered meal list
+15:18:22,026 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-14) returning list of 1 ordered meals
+15:18:23,658 INFO  [pro.realis.lab.librarian.PublisherController] (default task-16) fetching books of publisher 1
+15:18:23,661 INFO  [pro.realis.lab.librarian.PublisherController] (default task-16) fetching books of publisher 1
+15:18:23,665 INFO  [pro.realis.lab.librarian.PublisherController] (default task-16) fetching books of publisher 1
+15:18:23,789 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-15) obtaining ordered meal list
+15:18:23,789 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-15) returning list of 1 ordered meals
+15:18:25,483 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-17) adding meal 2 to order
+15:18:25,491 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-18) obtaining ordered meal list
+15:18:25,492 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-18) returning list of 2 ordered meals
+15:18:29,606 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-19) finalizing order
+15:18:29,714 INFO  [pro.realis.lab.librarian.ejb.mdb.Delivery] (Thread-0 (ActiveMQ-client-global-threads-585501408)) order received: Order{books=[Book{id=4, title='Bezpieczenstwo informacyjne', price=33, publisher=Publisher{id=2, name='PWNNNN', logoImage='http://it.pwn.pl/design/plain_site/images/logo-it-pwn.png'}}, Book{id=2, title='Testowanie i jakosc oprogramowania', price=103, publisher=Publisher{id=1, name='Helion', logoImage='http://www.komputerswiat.pl/media/902570/helion-logo-panorama.jpg'}}]}
+15:18:29,736 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-20) obtaining ordered meal list
+15:18:29,736 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-20) returning list of 2 ordered meals
+15:18:32,591 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-21) reseting order
+15:18:32,598 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-22) obtaining ordered meal list
+15:18:32,598 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-22) returning list of 0 ordered meals
+15:18:33,846 INFO  [pro.realis.lab.librarian.PublisherController] (default task-23) fetching publisher list
+15:18:33,847 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-23) fetching restaurant list from data access object. session: anonymous {}
+15:18:33,849 INFO  [pro.realis.lab.librarian.PublisherController] (default task-23) fetching publisher list
+15:18:33,850 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-23) fetching restaurant list from data access object. session: anonymous {}
+15:18:33,856 INFO  [pro.realis.lab.librarian.PublisherController] (default task-23) fetching publisher list
+15:18:33,857 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-23) fetching restaurant list from data access object. session: anonymous {}
+15:18:33,979 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-24) obtaining ordered meal list
+15:18:33,980 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-24) returning list of 0 ordered meals
+15:26:03,834 INFO  [pro.realis.lab.librarian.PublisherController] (default task-2) fetching publisher list
+15:26:03,855 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-2) fetching restaurant list from data access object. session: user2 {}
+15:26:03,864 INFO  [pro.realis.lab.librarian.PublisherController] (default task-2) fetching publisher list
+15:26:03,865 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-2) fetching restaurant list from data access object. session: user2 {}
+15:26:03,874 INFO  [pro.realis.lab.librarian.PublisherController] (default task-2) fetching publisher list
+15:26:03,875 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-2) fetching restaurant list from data access object. session: user2 {}
+15:26:04,361 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-5) obtaining ordered meal list
+15:26:04,364 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-5) returning list of 0 ordered meals
+16:01:45,527 INFO  [pro.realis.lab.librarian.PublisherController] (default task-2) fetching publisher list
+16:01:45,544 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-2) fetching restaurant list from data access object. session: dbuser1 {}
+16:01:45,565 INFO  [pro.realis.lab.librarian.PublisherController] (default task-2) fetching publisher list
+16:01:45,566 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-2) fetching restaurant list from data access object. session: dbuser1 {}
+16:01:45,587 INFO  [pro.realis.lab.librarian.PublisherController] (default task-2) fetching publisher list
+16:01:45,588 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-2) fetching restaurant list from data access object. session: dbuser1 {}
+16:01:46,945 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-8) obtaining ordered meal list
+16:01:46,952 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-8) returning list of 0 ordered meals
+16:11:10,807 INFO  [pro.realis.lab.librarian.PublisherController] (default task-2) fetching publisher list
+16:11:10,907 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-2) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:10,941 INFO  [pro.realis.lab.librarian.PublisherController] (default task-2) fetching publisher list
+16:11:10,941 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-2) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:10,956 INFO  [pro.realis.lab.librarian.PublisherController] (default task-2) fetching publisher list
+16:11:10,957 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-2) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:11,577 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-5) obtaining ordered meal list
+16:11:11,585 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-5) returning list of 0 ordered meals
+16:11:15,075 INFO  [pro.realis.lab.librarian.PublisherController] (default task-6) fetching publisher list
+16:11:15,091 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-6) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:15,111 INFO  [pro.realis.lab.librarian.PublisherController] (default task-6) fetching publisher list
+16:11:15,111 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-6) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:15,126 INFO  [pro.realis.lab.librarian.PublisherController] (default task-6) fetching publisher list
+16:11:15,127 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-6) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:15,265 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-9) obtaining ordered meal list
+16:11:15,265 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-9) returning list of 0 ordered meals
+16:11:20,041 INFO  [pro.realis.lab.librarian.PublisherController] (default task-10) fetching publisher list
+16:11:20,042 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-10) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:20,046 INFO  [pro.realis.lab.librarian.PublisherController] (default task-10) fetching publisher list
+16:11:20,047 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-10) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:20,050 INFO  [pro.realis.lab.librarian.PublisherController] (default task-10) fetching publisher list
+16:11:20,051 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-10) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:20,163 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-13) obtaining ordered meal list
+16:11:20,163 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-13) returning list of 0 ordered meals
+16:11:21,667 INFO  [pro.realis.lab.librarian.PublisherController] (default task-14) fetching publisher list
+16:11:21,668 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-14) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:21,675 INFO  [pro.realis.lab.librarian.PublisherController] (default task-14) fetching publisher list
+16:11:21,675 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-14) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:21,683 INFO  [pro.realis.lab.librarian.PublisherController] (default task-14) fetching publisher list
+16:11:21,683 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-14) fetching restaurant list from data access object. session: dbuser1 {}
+16:11:21,834 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-17) obtaining ordered meal list
+16:11:21,835 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-17) returning list of 0 ordered meals
+16:11:53,469 INFO  [pro.realis.lab.librarian.PublisherController] (default task-19) fetching publisher list
+16:11:53,475 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-19) fetching restaurant list from data access object. session: user2 {}
+16:11:53,478 INFO  [pro.realis.lab.librarian.PublisherController] (default task-19) fetching publisher list
+16:11:53,478 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-19) fetching restaurant list from data access object. session: user2 {}
+16:11:53,499 INFO  [pro.realis.lab.librarian.PublisherController] (default task-19) fetching publisher list
+16:11:53,499 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-19) fetching restaurant list from data access object. session: user2 {}
+16:11:56,439 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-25) obtaining ordered meal list
+16:11:56,448 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-25) returning list of 0 ordered meals
+16:12:52,988 INFO  [pro.realis.lab.librarian.PublisherController] (default task-28) fetching publisher list
+16:12:52,989 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-28) fetching restaurant list from data access object. session: dbuser1 {}
+16:12:52,993 INFO  [pro.realis.lab.librarian.PublisherController] (default task-28) fetching publisher list
+16:12:52,994 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-28) fetching restaurant list from data access object. session: dbuser1 {}
+16:12:52,997 INFO  [pro.realis.lab.librarian.PublisherController] (default task-28) fetching publisher list
+16:12:52,997 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-28) fetching restaurant list from data access object. session: dbuser1 {}
+16:13:03,284 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) obtaining ordered meal list
+16:13:03,285 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-2) returning list of 0 ordered meals
+08:49:36,852 INFO  [pro.realis.lab.librarian.PublisherController] (default task-3) fetching publisher list
+08:49:36,874 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-3) fetching restaurant list from data access object. session: dbuser1 {}
+08:49:36,911 INFO  [pro.realis.lab.librarian.PublisherController] (default task-3) fetching publisher list
+08:49:36,912 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-3) fetching restaurant list from data access object. session: dbuser1 {}
+08:49:36,950 INFO  [pro.realis.lab.librarian.PublisherController] (default task-3) fetching publisher list
+08:49:36,950 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-3) fetching restaurant list from data access object. session: dbuser1 {}
+08:49:41,545 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-9) obtaining ordered meal list
+08:49:41,552 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-9) returning list of 0 ordered meals
+08:55:56,245 INFO  [pro.realis.lab.librarian.PublisherController] (default task-15) fetching publisher list
+08:55:56,299 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-15) fetching restaurant list from data access object. session: dbuser1 {}
+08:55:56,333 INFO  [pro.realis.lab.librarian.PublisherController] (default task-15) fetching publisher list
+08:55:56,334 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-15) fetching restaurant list from data access object. session: dbuser1 {}
+08:55:56,363 INFO  [pro.realis.lab.librarian.PublisherController] (default task-15) fetching publisher list
+08:55:56,364 INFO  [pro.realis.lab.librarian.ejb.LibrarianServiceEjb] (default task-15) fetching restaurant list from data access object. session: dbuser1 {}
+08:56:00,019 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-21) obtaining ordered meal list
+08:56:00,026 INFO  [pro.realis.lab.librarian.ws.OrderController] (default task-21) returning list of 0 ordered meals

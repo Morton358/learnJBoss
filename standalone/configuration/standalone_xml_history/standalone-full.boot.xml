@@ -63,10 +63,7 @@
             <security-realm name="HTTPSRealm">
                 <server-identities>
                     <ssl>
-                        <keystore path="librarian.jks"
-                                  relative-to="jboss.server.config.dir"
-                                  keystore-password="morton358"
-                                  alias="librarian" />
+                        <keystore path="librarian.jks" relative-to="jboss.server.config.dir" keystore-password="morton358" alias="librarian"/>
                     </ssl>
                 </server-identities>
             </security-realm>
@@ -132,7 +129,7 @@
             <logger category="sun.rmi">
                 <level name="WARN"/>
             </logger>
-            <logger category="pro.realis" use-parent-handlers="false">
+            <logger category="pro.realis" use-parent-handlers="true">
                 <level name="ALL"/>
                 <handlers>
                     <handler name="librarian"/>
@@ -178,10 +175,28 @@
                         <password>sa</password>
                     </security>
                 </datasource>
+                <datasource jta="true" jndi-name="java:jboss/datasources/LibrarianDS_bak" pool-name="librarianH2" enabled="false" use-ccm="true">
+                    <connection-url>jdbc:h2:tcp://localhost/~/test</connection-url>
+                    <driver-class>org.h2.Driver</driver-class>
+                    <driver>h2</driver>
+                    <security>
+                        <user-name>sa</user-name>
+                    </security>
+                </datasource>
+                <datasource jta="true" jndi-name="java:jboss/datasources/LibrarianDS" pool-name="librarianMaria" enabled="true" use-ccm="true">
+                    <connection-url>jdbc:mariadb://localhost:3306/librarian</connection-url>
+                    <driver-class>org.mariadb.jdbc.Driver</driver-class>
+                    <driver>MariaDB</driver>
+                    <security>
+                        <user-name>root</user-name>
+                        <password>sages</password>
+                    </security>
+                </datasource>
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>
+                    <driver name="MariaDB" module="org.mariadb.jdbc"/>
                 </drivers>
             </datasources>
         </subsystem>
@@ -358,6 +373,7 @@
                 <in-vm-acceptor name="in-vm" server-id="0"/>
                 <jms-queue name="ExpiryQueue" entries="java:/jms/queue/ExpiryQueue"/>
                 <jms-queue name="DLQ" entries="java:/jms/queue/DLQ"/>
+                <jms-queue name="Orders" entries="java:/jms/queue/orders"/>
                 <connection-factory name="InVmConnectionFactory" entries="java:/ConnectionFactory" connectors="in-vm"/>
                 <connection-factory name="RemoteConnectionFactory" entries="java:jboss/exported/jms/RemoteConnectionFactory" connectors="http-connector"/>
                 <pooled-connection-factory name="activemq-ra" entries="java:/JmsXA java:jboss/DefaultJMSConnectionFactory" connectors="in-vm" transaction="xa"/>
@@ -411,6 +427,18 @@
                         <auth-module code="Dummy"/>
                     </authentication-jaspi>
                 </security-domain>
+                <security-domain name="kurczaCheck">
+                    <authentication>
+                        <login-module name="DB" code="Database" flag="sufficient">
+                            <module-option name="dsJndiName" value="java:jboss/datasources/LibrarianDS"/>
+                            <module-option name="principalsQuery" value="select password from user where user_name=?"/>
+                            <module-option name="rolesQuery" value="select role_name, 'Roles' from role where user_name=?"/>
+                        </login-module>
+                        <login-module code="RealmDirect" flag="sufficient">
+                            <module-option name="password-stacking" value="useFirstPass"/>
+                        </login-module>
+                    </authentication>
+                </security-domain>
             </security-domains>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:transactions:3.0">
@@ -428,9 +456,8 @@
                 <https-listener name="https" socket-binding="https" security-realm="HTTPSRealm" enable-http2="true"/>
                 <host name="default-host" alias="localhost">
                     <location name="/" handler="welcome-content"/>
-                    <filter-ref name="server-header"/>
-                    <filter-ref name="x-powered-by-header"/>
                 </host>
+                <host name="fake-host" alias="fake.com, www.fake.com"/>
             </server>
             <servlet-container name="default">
                 <jsp-config/>
